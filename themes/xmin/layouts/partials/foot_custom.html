@@ -1,0 +1,16 @@
+{{ $html401 := resources.Get "images/html401.png" }}
+{{ $css := resources.Get "images/w3css.gif" }}
+{{ $github := resources.Get "images/github-mark.png" }}
+
+{{ with $html401 }}
+<img src="{{ .RelPermalink }}" width= "{{ .Width }}" height = "{{ .Height }}">
+{{ end }}
+
+{{ with $css }}
+<img src="{{ .RelPermalink }}" width= "{{ .Width }}" height = "{{ .Height }}">
+{{ end }}
+
+{{ with $github }}
+<img src="{{ .RelPermalink }}" width= "35rem" >
+{{ end }}
+
