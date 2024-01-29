@@ -1,16 +1,8 @@
-{{ $html401 := resources.Get "images/html401.png" }}
-{{ $css := resources.Get "images/w3css.gif" }}
-{{ $github := resources.Get "images/github-mark.png" }}
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/languages/c.min.js"></script>
+<script defer src="//yihui.org/js/math-code.js"></script>
 
-{{ with $html401 }}
-<img src="{{ .RelPermalink }}" width= "{{ .Width }}" height = "{{ .Height }}">
-{{ end }}
-
-{{ with $css }}
-<img src="{{ .RelPermalink }}" width= "{{ .Width }}" height = "{{ .Height }}">
-{{ end }}
-
-{{ with $github }}
-<img src="{{ .RelPermalink }}" width= "35rem" >
-{{ end }}
-
+<script>
+hljs.configure({languages: []});
+hljs.initHighlightingOnLoad();
+</script>

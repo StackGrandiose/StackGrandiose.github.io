@@ -3,7 +3,7 @@ title: Using Vim
 date: 2023-07-28
 ---
 
-[<-- Back]({{< ref "_index.md" >}})
+**[<-- Back]({{< ref "_index.md" >}})**
 
 ## My Experience Using Vim
 

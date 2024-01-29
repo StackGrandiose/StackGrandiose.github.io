@@ -3,7 +3,7 @@ title: Alien Essay
 date: 2022-11-21
 ---
 
-[<-- Back]({{< ref "_index.md" >}})
+**[<-- Back]({{< ref "_index.md" >}})**
 
 _This is a essay that I wrote for school. It is pretty long & wordy some of the stuff I do not totally agree with, and it assumes things through a secular world view. Its main purpose being here is to see what a large amount of 
        text will look like on this website._
