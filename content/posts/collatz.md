@@ -10,7 +10,7 @@ The website [ProjectEuler.net](https://projecteuler.net/) has many different mat
 can be solved. In my attempt to deepen my understanding about coding and learn C, I decided to solve the problem relating to finding the
 longest [Collatz Sequence](https://projecteuler.net/problem=14). The following program was compiled using gcc.
 
-```
+```c
 
 #include <stdio.h>
 

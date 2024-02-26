@@ -45,47 +45,47 @@
 <p>The website <a href="https://projecteuler.net/">ProjectEuler.net</a> has many different math and logic based programming problems that
 can be solved. In my attempt to deepen my understanding about coding and learn C, I decided to solve the problem relating to finding the
 longest <a href="https://projecteuler.net/problem=14">Collatz Sequence</a>. The following program was compiled using gcc.</p>
-<pre tabindex="0"><code>
-#include &lt;stdio.h&gt;
-
-long evenOperation (long n) {
-    n = n / 2;
-    return(n);
-}
-
-long oddOperation (long n) {
-    n = (3*n) + 1;
-    return(n);
-}
-
-int main (int argc, char **argv) {
-    long number = 0;
-    long maxPathLength = 0;
-    long maxLengthInt = 0;
-    long numOfTerms = 100;
-
-    for (int i = 0; i &lt; numOfTerms; i++) {
-        long currentLength = 1;
-        while (number &gt; 1) {
-            if ((number % 2) == 0) {
-                number = evenOperation(number);
-                currentLength++;
-            }
-            else {
-                number = oddOperation(number);
-                currentLength++;
-            }
-        }
-        if (currentLength &gt; maxPathLength) {
-            maxPathLength = currentLength;
-            maxLengthInt = i-1;
-        }
-        number = i;
-    }
-    printf(&#34;TERM: &#39;%li&#39; WITH A SEQUENCE LENGTH OF &#39;%li&#39;\n&#34;, maxLengthInt, maxPathLength);
-    return(0);
-}
-</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">long</span> <span style="color:#a6e22e">evenOperation</span> (<span style="color:#66d9ef">long</span> n) {
+</span></span><span style="display:flex;"><span>    n <span style="color:#f92672">=</span> n <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span>(n);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">long</span> <span style="color:#a6e22e">oddOperation</span> (<span style="color:#66d9ef">long</span> n) {
+</span></span><span style="display:flex;"><span>    n <span style="color:#f92672">=</span> (<span style="color:#ae81ff">3</span><span style="color:#f92672">*</span>n) <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span>(n);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span> (<span style="color:#66d9ef">int</span> argc, <span style="color:#66d9ef">char</span> <span style="color:#f92672">**</span>argv) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">long</span> number <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">long</span> maxPathLength <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">long</span> maxLengthInt <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">long</span> numOfTerms <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> numOfTerms; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">long</span> currentLength <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (number <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> ((number <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>                number <span style="color:#f92672">=</span> <span style="color:#a6e22e">evenOperation</span>(number);
+</span></span><span style="display:flex;"><span>                currentLength<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>                number <span style="color:#f92672">=</span> <span style="color:#a6e22e">oddOperation</span>(number);
+</span></span><span style="display:flex;"><span>                currentLength<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (currentLength <span style="color:#f92672">&gt;</span> maxPathLength) {
+</span></span><span style="display:flex;"><span>            maxPathLength <span style="color:#f92672">=</span> currentLength;
+</span></span><span style="display:flex;"><span>            maxLengthInt <span style="color:#f92672">=</span> i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        number <span style="color:#f92672">=</span> i;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;TERM: &#39;%li&#39; WITH A SEQUENCE LENGTH OF &#39;%li&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, maxLengthInt, maxPathLength);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span>(<span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
   </article>
 
   
