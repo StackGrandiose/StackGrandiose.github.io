@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on StackGrandiose</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on StackGrandiose</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Vim</title>
+      <link>http://localhost:1313/posts/vim/</link>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/vim/</guid>
+      <description>&amp;lt;&amp;ndash; Back&#xA;My Experience Using Vim Around the start of June, I went through the trouble of installing Artix Linux on a laptop. With this, I had the choice of what text editor I could install onto my system. In the past, I have never really done any true programming work or config editing on my previous desktop Linux Mint machine. In the occasion that I did, however, I must have used a default text editor like xed.</description>
+    </item>
+  </channel>
+</rss>

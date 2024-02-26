@@ -1,6 +1,7 @@
 ---
 title: Alien Essay
 date: 2022-11-21
+tags: essay
 ---
 
 **[<-- Back]({{< ref "_index.md" >}})**

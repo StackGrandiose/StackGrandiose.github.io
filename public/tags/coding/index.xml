@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on StackGrandiose</title>
+    <link>http://localhost:1313/tags/coding/</link>
+    <description>Recent content in Coding on StackGrandiose</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collatz Sequence</title>
+      <link>http://localhost:1313/posts/collatz/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/collatz/</guid>
+      <description>&amp;lt;&amp;ndash; Back&#xA;The website ProjectEuler.net has many different math and logic based programming problems that can be solved. In my attempt to deepen my understanding about coding and learn C, I decided to solve the problem relating to finding the longest Collatz Sequence. The following program was compiled using gcc.&#xA;#include &amp;lt;stdio.h&amp;gt; long evenOperation (long n) { n = n / 2; return(n); } long oddOperation (long n) { n = (3*n) + 1; return(n); } int main (int argc, char **argv) { long number = 0; long maxPathLength = 0; long maxLengthInt = 0; long numOfTerms = 100; for (int i = 0; i &amp;lt; numOfTerms; i++) { long currentLength = 1; while (number &amp;gt; 1) { if ((number % 2) == 0) { number = evenOperation(number); currentLength++; } else { number = oddOperation(number); currentLength++; } } if (currentLength &amp;gt; maxPathLength) { maxPathLength = currentLength; maxLengthInt = i-1; } number = i; } printf(&amp;#34;TERM: &amp;#39;%li&amp;#39; WITH A SEQUENCE LENGTH OF &amp;#39;%li&amp;#39;\n&amp;#34;, maxLengthInt, maxPathLength); return(0); } </description>
+    </item>
+  </channel>
+</rss>

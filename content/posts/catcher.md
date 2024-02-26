@@ -1,6 +1,7 @@
 ---
 title: Catcher in the Rye Review
 date: 2023-07-20
+tags: ['essay', 'book'] 
 ---
 
 **[<-- Back]({{< ref "_index.md" >}})**

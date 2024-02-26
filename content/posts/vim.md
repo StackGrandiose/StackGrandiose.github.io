@@ -1,6 +1,7 @@
 ---
 title: Using Vim
 date: 2023-07-28
+tags: ['vim', 'linux']
 ---
 
 **[<-- Back]({{< ref "_index.md" >}})**

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book on StackGrandiose</title>
+    <link>http://localhost:1313/tags/book/</link>
+    <description>Recent content in Book on StackGrandiose</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Catcher in the Rye Review</title>
+      <link>http://localhost:1313/posts/catcher/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/catcher/</guid>
+      <description>&amp;lt;&amp;ndash; Back&#xA;If you have never read &amp;ldquo;The Catcher in the Rye&amp;rdquo; before, one may think that the book is a sophisticated piece of fiction that should be classified in the same category as celebrated 19th century stories. It should surely be a difficult to read yet highly insightful body of work. Even if not everyone thinks these things, it is certainly what I thought when I first decided to read &amp;ldquo;The Catcher in the Rye&amp;rdquo;.</description>
+    </item>
+  </channel>
+</rss>

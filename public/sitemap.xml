@@ -5,13 +5,31 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-01-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/coding/</loc>
+    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/collatz/</loc>
     <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2023-07-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/vim/</loc>
     <lastmod>2023-07-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/vim/</loc>
+    <lastmod>2023-07-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/book/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/catcher/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/essay/</loc>
     <lastmod>2023-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -21,7 +39,5 @@
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
