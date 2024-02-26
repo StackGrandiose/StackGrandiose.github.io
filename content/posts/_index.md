@@ -2,5 +2,5 @@
 title: Posts
 menu: 'main'
 weight: 1
-layout: list
+layout: posts-list
 ---

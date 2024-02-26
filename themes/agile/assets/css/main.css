@@ -2,6 +2,7 @@
     --text-color: black;
     --bg-color: #f9f9f9;
     --link-color: #00e;
+    --tag-button-color: lightgray;
     --head-grad-color-1: rgba(249,249,249,1.0);
     --head-grad-color-2: rgba(249,249,249,0.70);
     --head-grad-color-3: rgba(249,249,249,0.0);
@@ -12,6 +13,7 @@
     --text-color: white;
     --bg-color: #1e1e1e;
     --link-color: #58a0d3;
+    --tag-button-color: #333333;
     --head-grad-color-1: rgba(30,30,30,1.0);
     --head-grad-color-2: rgba(30,30,30,0.70);
     --head-grad-color-3: rgba(30,30,30,0.0);
@@ -75,6 +77,14 @@ article p:last-child:after { /* From https://rwt.io/typography-tips/marks-ends-a
 li {
     display: inline;
     margin: 1rem;
+}
+
+.tagbutton { /* For posts*/
+    display: inline-block; 
+    background-color: var(--tag-button-color);
+    border-radius: 2px;
+    font-family: 'Courier New', Courier, monospace; 
+    margin-left: 1.5rem;
 }
 
 img {
