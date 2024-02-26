@@ -63,6 +63,14 @@ article {
     font-family: serif;
 }
 
+article p:last-child:after { /* From https://rwt.io/typography-tips/marks-ends-and-middles-end-marks-sections-and-dead-ends */
+  content: "\1F65C";
+  display: inline;
+  font-family: Georgia, "New Times Roman", serif;
+  font-size: 1.5em;
+  line-height: 0.5;
+}
+
 li {
     display: inline;
     margin: 1rem;

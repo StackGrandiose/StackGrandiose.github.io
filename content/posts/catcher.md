@@ -23,7 +23,7 @@ written at the same time.
 
 Judging the book on entertainment value, I thought the book was quite funny. There were some lines that Holden says in the book that were pretty clever and funny. In terms of striking societal 
 commentary with a deep meaning: didn't really find that with this book. The actual mention of "the Catcher in the Rye" only appears in exactly one chapter. You learn about exactly what that means, but
-I couldn't quite see if that theme was present throughout the whole book. Maybe I would have to do a re-reading or maybe I am too young to fully appreciate the meaning. >
+I couldn't quite see if that theme was present throughout the whole book. Maybe I would have to do a re-reading or maybe I am too young to fully appreciate the meaning. 
 
 Overall, A good fiction book about a relevant topic that many people can relate to.  
 
