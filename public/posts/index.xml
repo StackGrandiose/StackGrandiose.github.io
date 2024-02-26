@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on StackGrandiose</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on StackGrandiose</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collatz Sequence</title>
+      <link>http://localhost:1313/posts/collatz/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/collatz/</guid>
+      <description>&amp;lt;&amp;ndash; Back&#xA;The website ProjectEuler.net has many different math and logic based programming problems that can be solved. In my attempt to deepen my understanding about coding and learn C, I decided to solve the problem relating to finding the longest Collatz Sequence. The following program was compiled using gcc.&#xA;#include &amp;lt;stdio.h&amp;gt; long evenOperation (long n) { n = n / 2; return(n); } long oddOperation (long n) { n = (3*n) + 1; return(n); } int main (int argc, char **argv) { long number = 0; long maxPathLength = 0; long maxLengthInt = 0; long numOfTerms = 100; for (int i = 0; i &amp;lt; numOfTerms; i++) { long currentLength = 1; while (number &amp;gt; 1) { if ((number % 2) == 0) { number = evenOperation(number); currentLength++; } else { number = oddOperation(number); currentLength++; } } if (currentLength &amp;gt; maxPathLength) { maxPathLength = currentLength; maxLengthInt = i-1; } number = i; } printf(&amp;#34;TERM: &amp;#39;%li&amp;#39; WITH A SEQUENCE LENGTH OF &amp;#39;%li&amp;#39;\n&amp;#34;, maxLengthInt, maxPathLength); return(0); } </description>
+    </item>
+    <item>
+      <title>Using Vim</title>
+      <link>http://localhost:1313/posts/vim/</link>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/vim/</guid>
+      <description>&amp;lt;&amp;ndash; Back&#xA;My Experience Using Vim Around the start of June, I went through the trouble of installing Artix Linux on a laptop. With this, I had the choice of what text editor I could install onto my system. In the past, I have never really done any true programming work or config editing on my previous desktop Linux Mint machine. In the occasion that I did, however, I must have used a default text editor like xed.</description>
+    </item>
+    <item>
+      <title>Catcher in the Rye Review</title>
+      <link>http://localhost:1313/posts/catcher/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/catcher/</guid>
+      <description>&amp;lt;&amp;ndash; Back&#xA;If you have never read &amp;ldquo;The Catcher in the Rye&amp;rdquo; before, one may think that the book is a sophisticated piece of fiction that should be classified in the same category as celebrated 19th century stories. It should surely be a difficult to read yet highly insightful body of work. Even if not everyone thinks these things, it is certainly what I thought when I first decided to read &amp;ldquo;The Catcher in the Rye&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Alien Essay</title>
+      <link>http://localhost:1313/posts/alien/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/alien/</guid>
+      <description>&amp;lt;&amp;ndash; Back&#xA;This is a essay that I wrote for school. It is pretty long &amp;amp; wordy some of the stuff I do not totally agree with, and it assumes things through a secular world view. Its main purpose being here is to see what a large amount of text will look like on this website.&#xA;An Argument for Extraterrestrial’s Existence Throughout generations of humanity, the desire to find out if our life-rich planet is alone has been strong.</description>
+    </item>
+  </channel>
+</rss>

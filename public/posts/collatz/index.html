@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Collatz Sequence | StackGrandiose</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div id="header-block"><h1 id="site-title">StackGrandiose</h1><div id="gradient"></div></div>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>Collatz Sequence</h1>
+
+  
+  
+  <time datetime="2024-01-11T00:00:00&#43;00:00">January 11, 2024</time>
+
+  <p><strong><a href="http://localhost:1313/posts/">&lt;&ndash; Back</a></strong></p>
+<p>The website <a href="https://projecteuler.net/">ProjectEuler.net</a> has many different math and logic based programming problems that
+can be solved. In my attempt to deepen my understanding about coding and learn C, I decided to solve the problem relating to finding the
+longest <a href="https://projecteuler.net/problem=14">Collatz Sequence</a>. The following program was compiled using gcc.</p>
+<pre tabindex="0"><code>
+#include &lt;stdio.h&gt;
+
+long evenOperation (long n) {
+    n = n / 2;
+    return(n);
+}
+
+long oddOperation (long n) {
+    n = (3*n) + 1;
+    return(n);
+}
+
+int main (int argc, char **argv) {
+    long number = 0;
+    long maxPathLength = 0;
+    long maxLengthInt = 0;
+    long numOfTerms = 100;
+
+    for (int i = 0; i &lt; numOfTerms; i++) {
+        long currentLength = 1;
+        while (number &gt; 1) {
+            if ((number % 2) == 0) {
+                number = evenOperation(number);
+                currentLength++;
+            }
+            else {
+                number = oddOperation(number);
+                currentLength++;
+            }
+        }
+        if (currentLength &gt; maxPathLength) {
+            maxPathLength = currentLength;
+            maxLengthInt = i-1;
+        }
+        number = i;
+    }
+    printf(&#34;TERM: &#39;%li&#39; WITH A SEQUENCE LENGTH OF &#39;%li&#39;\n&#34;, maxLengthInt, maxPathLength);
+    return(0);
+}
+</code></pre>
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
