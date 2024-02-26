@@ -1,10 +1,10 @@
 :root {
     --text-color: black;
-    --bg-color: white;
+    --bg-color: #f9f9f9;
     --link-color: #00e;
-    --head-grad-color-1: rgba(255,255,255,1.0);
-    --head-grad-color-2: rgba(255,255,255,0.70);
-    --head-grad-color-3: rgba(255,255,255,0.0);
+    --head-grad-color-1: rgba(249,249,249,1.0);
+    --head-grad-color-2: rgba(249,249,249,0.70);
+    --head-grad-color-3: rgba(249,249,249,0.0);
 }
 
 @media (prefers-color-scheme: dark) {
