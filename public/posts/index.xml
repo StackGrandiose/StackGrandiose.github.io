@@ -6,8 +6,15 @@
     <description>Recent content in Posts on StackGrandiose</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making Youtube Less Fun</title>
+      <link>http://localhost:1313/posts/youtube/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/youtube/</guid>
+      <description>Youtube.com can be argued as a non-social media platform. It can be used simply as a way to host videos or a place to learn new things. However, this guise of educational value can lead to a cyclical addiction. I have struggled with using Youtube in a moderated way and have unfortunately spent a lot of time wasting away watching Youtube videos. Yes, youtube has some value in terms of personal development and learning, but the destructive patterns Youtube makes you go into makes the tradeoff seem unwise.</description>
+    </item>
     <item>
       <title>Collatz Sequence</title>
       <link>http://localhost:1313/posts/collatz/</link>

@@ -74,12 +74,17 @@ article p:last-child:after { /* From https://rwt.io/typography-tips/marks-ends-a
   line-height: 0.5;
 }
 
+ul#menu {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 li {
     display: inline;
     margin: 1rem;
 }
 
-.tagbutton { /* For posts*/
+div.tagbutton { /* For posts*/
     display: inline-block; 
     background-color: var(--tag-button-color);
     border-radius: 2px;
@@ -109,4 +114,10 @@ footer {
 a {
   color: var(--link-color);
   text-decoration: none;
+}
+
+#github-icon {
+    width: 2rem; 
+    margin: 0px; 
+    display: inline-block;
 }

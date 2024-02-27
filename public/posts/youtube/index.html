@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Making Youtube Less Fun | StackGrandiose</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    
+  <nav>
+    <ul id="menu">
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/pottery/">Pottery</a>
+    </li>
+    </ul>
+  </nav>
+
+<div id="header-block"><h1 id="site-title">StackGrandiose</h1><div id="gradient"></div></div>
+
+  </header>
+  <main>
+    
+  <h1>Making Youtube Less Fun</h1>
+
+  
+  
+  <time datetime="2024-02-26T00:00:00&#43;00:00">February 26, 2024</time>
+
+  <article>
+  <p>Youtube.com can be argued as a non-social media platform. It can be used
+simply as a way to host videos or a place to learn new things. However,
+this guise of educational value can lead to a cyclical addiction. I have
+struggled with using Youtube in a moderated way and have unfortunately
+spent a lot of time wasting away watching Youtube videos. Yes, youtube has
+some value in terms of personal development and learning, but the
+destructive patterns Youtube makes you go into makes the tradeoff seem
+unwise. However, I have overtime been able to make Youtube less enjoyable
+to watch mindlessly yet still be available to refer to as a way to learn.</p>
+<h3 id="unhook">UNHOOK</h3>
+<p>As of now, I find the browser extention <a href="https://unhook.app/">Unhook</a> to
+be the easiest to use solution in terms of blocking most addicting
+features. The extention allows you to toggle on and off features
+individually. I have almost all features turned off except hiding the top
+header, as searching up videos is easier than using a search engine like
+DuckDuckGo.</p>
+<h3 id="ublock-origin">UBLOCK ORIGIN</h3>
+<p>For a while, I was using a browser extention that focused on blocking
+youtube shorts. However, I am now using a filter for Ublock Origin from
+<a href="https://letsblock.it/filters/youtube-shorts">letsblock.it</a>. Copy and
+pasting these lines into &ldquo;My Filters&rdquo; in Ublock completely blocks the
+viewing of shorts.</p>
+<pre tabindex="0"><code>www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^=&#34;M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33&#34;]:upward(ytd-guide-entry-renderer)
+www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^=&#34;M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33&#34;]:upward(ytd-mini-guide-entry-renderer)
+www.youtube.com##ytd-browse[page-subtype=&#34;home&#34;] .ytd-thumbnail[href^=&#34;/shorts/&#34;]:upward(ytd-rich-item-renderer)
+www.youtube.com##ytd-browse[page-subtype=&#34;subscriptions&#34;] .ytd-thumbnail[href^=&#34;/shorts/&#34;]:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
+www.youtube.com##ytd-search .ytd-thumbnail[href^=&#34;/shorts/&#34;]:upward(ytd-video-renderer)
+www.youtube.com##ytd-browse[page-subtype=&#34;subscriptions&#34;] ytd-video-renderer .ytd-thumbnail[href^=&#34;/shorts/&#34;]:upward(ytd-item-section-renderer)
+www.youtube.com##ytd-watch-next-secondary-results-renderer .ytd-thumbnail[href^=&#34;/shorts/&#34;]:upward(ytd-compact-video-renderer,ytd-shelf-renderer)
+www.youtube.com##ytd-browse[page-subtype=&#34;trending&#34;] .ytd-thumbnail[href^=&#34;/shorts/&#34;]:upward(ytd-video-renderer)
+www.youtube.com##ytd-search .ytd-thumbnail[href^=&#34;/shorts/&#34;]:upward(ytd-video-renderer)
+www.youtube.com##ytd-notification-renderer:has(&gt; a[href^=&#34;/shorts/&#34;])
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts].ytd-rich-section-renderer:upward(ytd-rich-section-renderer)
+www.youtube.com##ytd-reel-shelf-renderer
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style=&#34;SHORTS&#34;]:upward(ytm-video-with-context-renderer)
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style=&#34;SHORTS&#34;]:upward(ytm-compact-video-renderer)
+m.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style=&#34;SHORTS&#34;]:upward(ytm-compact-video-renderer,ytm-video-with-context-renderer)
+m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/):upward(ytm-video-with-context-renderer)
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+</code></pre><p>Lastly, to make the last way of browsing videos (typing in the search bar)
+even more boring, I removed all video information except the title, view
+count, published date and description. Searching up videos now presents
+you with a list.</p>
+<pre tabindex="0"><code>i.ytimg.com/$domain=www.youtube.com,image
+www.youtube.com###channel-info
+www.youtube.com###left-section
+www.youtube.com###header
+www.youtube.com##ytd-thumbnail.ytd-video-renderer.style-scope
+&gt; .ytd-thumbnail.style-scope.inline-block.yt-simple-endpoint
+www.youtube.com##ytd-thumbnail.ytd-video-renderer.style-scope 
+</code></pre>
+  </article>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/internet/">Internet - </a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+<a href="https://github.com/StackGrandiose" target="_blank"><img id="github-icon" src="/github-mark.png"/></a>
+
+  </footer>
+</body>
+</html>
