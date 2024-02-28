@@ -67,7 +67,8 @@ article {
 }
 
 article p:last-child:after { /* From https://rwt.io/typography-tips/marks-ends-and-middles-end-marks-sections-and-dead-ends */
-  content: "\1F65C";
+  content: url("/favicon-scaled.ico");
+  margin-left: 0.5rem;
   display: inline;
   font-family: Georgia, "New Times Roman", serif;
   font-size: 1.5em;
@@ -107,8 +108,9 @@ pre {
 }
 
 footer {
-  border-top: 1px solid #222;
+  border-top: 1px solid var(--text-color);
   margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 a {
@@ -120,4 +122,11 @@ a {
     width: 2rem; 
     margin: 0px; 
     display: inline-block;
+}
+
+@media (prefers-color-scheme: dark) {
+    #github-icon {
+        -webkit-filter: invert(1);
+        filter: invert(1);
+    }
 }
