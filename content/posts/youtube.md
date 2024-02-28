@@ -5,6 +5,8 @@ tags: Internet
 draft: false
 ---
 
+**[<-- Back]({{< ref "_index.md" >}})**
+
 Youtube.com can be argued as a non-social media platform. It can be used
 simply as a way to host videos or a place to learn new things. However,
 this guise of educational value can lead to a cyclical addiction. I have
