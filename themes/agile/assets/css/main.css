@@ -1,7 +1,9 @@
 :root {
     --text-color: black;
-    --bg-color: #f9f9f9;
-    --link-color: #00e;
+    --bg-color: #FFFCF0;
+    --link-color: #24837B; 
+    --menu-item-active: #66800B;
+    --menu-item-inactive: #879A39;
     --tag-button-color: lightgray;
     --head-grad-color-1: rgba(249,249,249,1.0);
     --head-grad-color-2: rgba(249,249,249,0.70);
@@ -57,6 +59,7 @@ body {
   margin: 0 auto;
 }
 
+
 header {
   border-bottom: 1px solid var(--text-color);
   margin-bottom: 1rem;
@@ -75,9 +78,13 @@ article p:last-child:after { /* From https://rwt.io/typography-tips/marks-ends-a
   line-height: 0.5;
 }
 
-ul#menu {
-    margin-top: 0px;
-    margin-bottom: 0px;
+a#menu-item {
+    color: var(--menu-item-inactive);
+}
+
+a#menu-item.active {
+    font-weight: bold;
+    color: var(--menu-item-active);
 }
 
 li {
@@ -105,6 +112,7 @@ img {
 pre {
     white-space: pre-wrap;
     counter-reset: line;
+    border-radius: 2px;
 }
 
 footer {
@@ -114,8 +122,7 @@ footer {
 }
 
 a {
-  color: var(--link-color);
-  text-decoration: none;
+  color: var(--menu-item-color);
 }
 
 #github-icon {
