@@ -3,6 +3,6 @@
   {{ .Content }}
   {{ range .Pages }}
     <h2 style="padding-bottom: 0px; margin-bottom: 0px;"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    <p style="margin-top: 0px;">{{ .Date | time.Format ":date_medium" }}</p>
+    <p id="date"style="margin-top: 0px;">{{ .Date | time.Format ":date_medium" }}</p>
   {{ end }}
 {{ end }}

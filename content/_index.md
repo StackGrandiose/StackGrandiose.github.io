@@ -3,4 +3,6 @@ title = 'Home'
 date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
-![image](DSCN0028.jpg)
+
+Welcome to StackGrandiose.github.io. This is currently my personal website.
+It has gone through many iterations.
