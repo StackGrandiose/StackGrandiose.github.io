@@ -126,6 +126,7 @@ footer {
   border-top: 1px solid var(--text-color);
   margin-top: 1rem;
   padding-top: 1rem;
+  text-align: center;
 }
 
 a {
@@ -134,7 +135,7 @@ a {
 
 #github-icon {
     width: 2rem; 
-    display: block;
+    display: inline;
 }
 
 @media (prefers-color-scheme: dark) {
