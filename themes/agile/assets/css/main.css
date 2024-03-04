@@ -114,6 +114,7 @@ img {
    margin: 0 auto;
    margin-top: 5vh;
    margin-bottom: 5vh;
+   box-shadow: 5px 5px 5px #3a3a37;
 }
 
 p gif {

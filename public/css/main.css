@@ -1,5 +1,5 @@
 :root {
-    --text-color: rgb(16, 15, 15);
+    --text-color: #3a3a37;
     --bg-color: #FFFCF0;
     --link-color: #24837B; 
     --menu-item-active: rgb(218, 112, 44);
@@ -114,6 +114,7 @@ img {
    margin: 0 auto;
    margin-top: 5vh;
    margin-bottom: 5vh;
+   box-shadow: 5px 5px 5px #3a3a37;
 }
 
 p gif {
