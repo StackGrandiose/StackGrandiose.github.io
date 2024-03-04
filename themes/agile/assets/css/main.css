@@ -116,6 +116,10 @@ img {
    margin-bottom: 5vh;
 }
 
+p gif {
+    width: 100px;
+}
+
 pre {
     white-space: pre-wrap;
     counter-reset: line;
