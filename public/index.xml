@@ -43,5 +43,12 @@
       <guid>http://localhost:1313/posts/alien/</guid>
       <description>&amp;lt;&amp;ndash; Back&#xA;This is a essay that I wrote for school. It is pretty long &amp;amp; wordy some of the stuff I do not totally agree with, and it assumes things through a secular world view. Its main purpose being here is to see what a large amount of text will look like on this website.&#xA;An Argument for Extraterrestrial’s Existence Throughout generations of humanity, the desire to find out if our life-rich planet is alone has been strong.</description>
     </item>
+    <item>
+      <title>Vim Keybinds</title>
+      <link>http://localhost:1313/posts/vim-keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/vim-keys/</guid>
+      <description>VIM KEYS surround.vim replace surroundings cs(current)(replacement) cs&amp;quot;&#39; &amp;ldquo;Hello World!&amp;quot;----&amp;gt;&amp;lsquo;Hello World!&amp;rsquo;</description>
+    </item>
   </channel>
 </rss>
