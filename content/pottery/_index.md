@@ -7,6 +7,8 @@ menu: 'main'
 
 `Date:` Spring 2023
 
+`Clay:` Earthenware
+
 `Glaze:` High Fire (PC-24 Sapphire Float?)
 ![pot](DSC03435-scaled.webp)
 ![pot](DSC03433-scaled.webp)
@@ -16,6 +18,8 @@ menu: 'main'
 `Title:` 'Swirl'
 
 `Date:` Spring 2023
+
+`Clay:` Earthenware & Stoneware (Agateware)
 
 `Glaze:` Low Fire (Transparent) 
 ![pot](DSC03428-scaled.webp)

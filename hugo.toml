@@ -8,4 +8,16 @@ block = true
 title = true 
 
 [markup.goldmark.renderer]
-  unsafe = true # Allow HTML in md files
+unsafe = true # Allow HTML in md files
+
+# Allow math to be rendered
+[markup]
+[markup.goldmark]
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
+[params]
+math = true
