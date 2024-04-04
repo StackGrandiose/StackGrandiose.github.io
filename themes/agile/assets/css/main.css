@@ -1,6 +1,6 @@
 :root {
     --text-color: #3a3a37;
-    --bg-color: #FFFCF0;
+    --bg-color: #FFFFFF;
     --link-color: #24837B; 
     --menu-item-active: rgb(218, 112, 44);
     --menu-item-inactive: rgb(135, 154, 57);
@@ -45,7 +45,7 @@ html {
 
 #gradient {
    flex-grow: 1;
-   background: linear-gradient(to right, var(--head-grad-color-1), var(--head-grad-color-2) 20%, var(--head-grad-color-3) 100%);
+   background: linear-gradient(to right, var(--head-grad-color-1), var(--head-grad-color-2) 30%, var(--head-grad-color-3) 100%);
 }
 
 
