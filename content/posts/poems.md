@@ -3,6 +3,7 @@ title: "Collection of Poems"
 date: 2024-04-13
 tags: writing
 ---
+**[<-- Back]({{< ref "_index.md" >}})**
 
 >>The ground sits, hardened into hills and flat lands for life to be.
 >>
