@@ -6,8 +6,15 @@
     <description>Recent content in Posts on StackGrandiose</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collection of Poems</title>
+      <link>http://localhost:1313/posts/poems/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/poems/</guid>
+      <description>The ground sits, hardened into hills and flat lands for life to be.&#xA;Light darkens, bringing way to humble crystals that coat dull earth.&#xA;Light brightens. Its return holds true, and our new friend will leave soon.&#xA;The world sat in a firm state, slowly changing without a voice&#xA;Against choice, This silent change turns into coarse yet forced actions&#xA;Hope is for a new paradigm, yet these things start without stop</description>
+    </item>
     <item>
       <title>Collatz Sequence</title>
       <link>http://localhost:1313/posts/collatz/</link>
@@ -35,13 +42,6 @@
       <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/alien/</guid>
       <description>&amp;lt;&amp;ndash; Back&#xA;This is a essay that I wrote for school. It is pretty long &amp;amp; wordy some of the stuff I do not totally agree with, and it assumes things through a secular world view. Its main purpose being here is to see what a large amount of text will look like on this website.&#xA;An Argument for Extraterrestrial’s Existence Throughout generations of humanity, the desire to find out if our life-rich planet is alone has been strong.</description>
-    </item>
-    <item>
-      <title>Vim Keybinds</title>
-      <link>http://localhost:1313/posts/vim-keys/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/vim-keys/</guid>
-      <description>VIM KEYS surround.vim replace surroundings cs(current)(replacement) cs&amp;quot;&#39; &amp;ldquo;Hello World!&amp;quot;----&amp;gt;&amp;lsquo;Hello World!&amp;rsquo;</description>
     </item>
   </channel>
 </rss>

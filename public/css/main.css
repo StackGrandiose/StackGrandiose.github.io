@@ -138,6 +138,12 @@ a {
   color: var(--menu-item-color);
 }
 
+blockquote {
+    background-color:rgb(242, 240, 229);
+    padding: 2rem;
+    border-radius: 0.2rem;
+}
+
 #github-icon {
     width: 2rem; 
     display: inline;
