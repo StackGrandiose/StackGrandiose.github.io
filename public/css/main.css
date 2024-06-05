@@ -90,7 +90,7 @@ a#menu-item.active {
     color: var(--menu-item-active);
 }
 
-li {
+.menu {
     display: inline;
     margin: 1rem;
 }
@@ -115,6 +115,16 @@ img {
    margin-top: 5vh;
    margin-bottom: 5vh;
    box-shadow: 5px 5px 5px #3a3a37;
+}
+
+#insignia {
+    box-shadow: none;
+    height: 1.5em;
+    width: auto;
+    margin: 0px;
+    margin-top: auto;
+    margin-bottom: 0.4rem;
+    margin-right: 0.4rem;
 }
 
 p gif {

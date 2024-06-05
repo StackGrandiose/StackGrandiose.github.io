@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    <div style="display: flex;">
+    <img id="insignia" src="{{ .Params.insignia }}">
+    <h2 style="padding-bottom: 0px; margin-bottom: 0px; flex-grow: 2;"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    </div>
+    <p style="margin-top: 0px;">{{ .Date | time.Format ":date_medium" }}</p>
+  {{ end }}
+{{ end }}
