@@ -56,5 +56,7 @@
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/pottery/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/tech/</loc>
   </url>
 </urlset>
