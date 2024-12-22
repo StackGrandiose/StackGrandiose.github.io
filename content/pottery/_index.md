@@ -47,3 +47,12 @@ menu: 'main'
 
 `Glaze:` High Fire (White and Purple) 
 ![pot](DSC03551-scaled.webp)
+
+`Title:` 'Vase'
+
+`Date:` Spring 2023
+
+`Clay:` Earthenware
+
+`Glaze:` High Fire (White and Purple) 
+![pot](DSC03504-scaled.webp)

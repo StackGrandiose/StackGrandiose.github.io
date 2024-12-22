@@ -6,14 +6,21 @@
     <description>Recent content in Linux on StackGrandiose</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Password Generator Using C</title>
+      <link>http://localhost:1313/posts/password-gen/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/password-gen/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/posts/&#34;&gt;&amp;lt;&amp;ndash; Back&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A few weeks back, I worked on a small password generation program that was made using C. I have tried working with C in the past, but this was the first time that I would say I have completed a project at a decent point of completion. I plan to add features in the future, but I want to write about it right now to expain ZZ&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Using Vim</title>
       <link>http://localhost:1313/posts/vim/</link>
       <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/vim/</guid>
-      <description>&amp;lt;&amp;ndash; Back&#xA;My Experience Using Vim Around the start of June, I went through the trouble of installing Artix Linux on a laptop. With this, I had the choice of what text editor I could install onto my system. In the past, I have never really done any true programming work or config editing on my previous desktop Linux Mint machine. In the occasion that I did, however, I must have used a default text editor like xed.</description>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/posts/&#34;&gt;&amp;lt;&amp;ndash; Back&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-experience-using-vim&#34;&gt;My Experience Using Vim&lt;/h2&gt;&#xA;&lt;p&gt;Around the start of June, I went through the trouble of installing Artix Linux on a laptop. With this, I had the choice of what text editor I could install onto my system. In the past, I have never really done any true programming work or config editing on my previous desktop Linux Mint machine. In the occasion that I did, however, I must have used a default text editor like xed. This style of usage really discouraged any sort of terminal work, which would be suited to using vim. I must have heard about vim in the past, and heard about its efficiency when working and its keyboard centric control. So, I installed vim and began my learning process.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

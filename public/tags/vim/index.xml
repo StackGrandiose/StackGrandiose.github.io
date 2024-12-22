@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/vim/</link>
       <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/vim/</guid>
-      <description>&amp;lt;&amp;ndash; Back&#xA;My Experience Using Vim Around the start of June, I went through the trouble of installing Artix Linux on a laptop. With this, I had the choice of what text editor I could install onto my system. In the past, I have never really done any true programming work or config editing on my previous desktop Linux Mint machine. In the occasion that I did, however, I must have used a default text editor like xed.</description>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/posts/&#34;&gt;&amp;lt;&amp;ndash; Back&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-experience-using-vim&#34;&gt;My Experience Using Vim&lt;/h2&gt;&#xA;&lt;p&gt;Around the start of June, I went through the trouble of installing Artix Linux on a laptop. With this, I had the choice of what text editor I could install onto my system. In the past, I have never really done any true programming work or config editing on my previous desktop Linux Mint machine. In the occasion that I did, however, I must have used a default text editor like xed. This style of usage really discouraged any sort of terminal work, which would be suited to using vim. I must have heard about vim in the past, and heard about its efficiency when working and its keyboard centric control. So, I installed vim and began my learning process.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
