@@ -6,14 +6,14 @@
     <description>Recent content in Posts on StackGrandiose</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Password Generator Using C</title>
-      <link>http://localhost:1313/posts/password-gen/</link>
-      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/password-gen/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/posts/&#34;&gt;&amp;lt;&amp;ndash; Back&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A few weeks back, I worked on a small password generation program that was made using C. I have tried working with C in the past, but this was the first time that I would say I have completed a project at a decent point of completion. I plan to add features in the future, but I want to write about it right now to expain ZZ&lt;/p&gt;</description>
+      <title>Software I Use On Linux</title>
+      <link>http://localhost:1313/posts/what-i-use/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/what-i-use/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/posts/&#34;&gt;&amp;lt;&amp;ndash; Back&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;What I use is pretty standard in the realm of linux. To give some context, I am a novice programmer who enjoys learning about software but whose livelihood does not depend on using development tools. I prefer using terminal-based programs, but I also don&amp;rsquo;t believe that GUI programs are objectively horrible. I mostly need a working operating system where I can do typical computing tasks. If you&amp;rsquo;re reading this, chances are you probably know about all of these programs already and reading on is a waste of time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Antonia</title>
@@ -49,13 +49,6 @@
       <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/catcher/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/posts/&#34;&gt;&amp;lt;&amp;ndash; Back&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you have never read &amp;ldquo;The Catcher in the Rye&amp;rdquo; before, one may think that the book is a sophisticated piece of fiction that should be classified in the same category as celebrated 19th century&#xA;stories. It should surely be a difficult to read yet highly insightful body of work. Even if not everyone thinks these things, it is certainly what I thought when I first decided to read&#xA;&amp;ldquo;The Catcher in the Rye&amp;rdquo;. However, my preassumed opinions of the book were quickly ruined when the very first paragraph was written as a teenager complaining. This guy was complaining about his&#xA;parents being &amp;ldquo;touchy as hell&amp;rdquo; and his brother being a supposed prostitute.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Alien Essay</title>
-      <link>http://localhost:1313/posts/alien/</link>
-      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/alien/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/posts/&#34;&gt;&amp;lt;&amp;ndash; Back&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;This is a essay that I wrote for school. It is pretty long &amp;amp; wordy some of the stuff I do not totally agree with, and it assumes things through a secular world view. Its main purpose being here is to see what a large amount of&#xA;text will look like on this website.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;an-argument-for-extraterrestrials-existence&#34;&gt;An Argument for Extraterrestrial’s Existence&lt;/h2&gt;&#xA;&lt;p&gt;Throughout generations of humanity, the desire to find out if our life-rich planet is alone has been strong. With the advent of modern scientific inventions, our species has been able to scan the stars to hopefully get confirmation that we are not alone. With recent advancements in technology, we now know that there are hundreds of confirmed planets that show promise of carrying life, with theoretically billions of others with similar conditions. These planets do not always mirror Earth’s environment exactly, but certain organisms on Earth prove that extraterrestrials can exist in very extreme places. Basic life definitely exists in the universe (in the form of basic unicellular or multicellular organisms), but complex, intelligent life is exceedingly rare and far away. There are planets that are capable of supporting life, and they are in abundance. Life can exist in eclectic forms, which expands the possibility of where life is. However, the likelihood of intelligent evolving from otherwise nonliving material is uncommon, leading to intelligent life being rare yet existing.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,15 +6,8 @@
     <description>Recent content in Linux on StackGrandiose</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jul 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Password Generator Using C</title>
-      <link>http://localhost:1313/posts/password-gen/</link>
-      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/password-gen/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/posts/&#34;&gt;&amp;lt;&amp;ndash; Back&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A few weeks back, I worked on a small password generation program that was made using C. I have tried working with C in the past, but this was the first time that I would say I have completed a project at a decent point of completion. I plan to add features in the future, but I want to write about it right now to expain ZZ&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Using Vim</title>
       <link>http://localhost:1313/posts/vim/</link>
