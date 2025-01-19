@@ -1,6 +1,7 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
   {{ .Content }}
+<div style="margin-bottom: 1em;">
 {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
 	  {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
           <div class="tagbutton">
@@ -9,8 +10,11 @@
           </div>
         {{end}}
         {{end}}
+</div>
+
   {{ range .Pages }}
-    <h2 style="padding-bottom: 0px; margin-bottom: 0px;"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  <img src="icons/{{.File.BaseFileName}}.webp" style="width: 1.5em; display:inline; margin: 0px; box-shadow: none !important;">
+    <h2 style="padding-bottom: 0px; margin-bottom: 0px; vertical-align: left; display: inline;"><a href="{{ .RelPermalink }}">{{ .LinkTitle | humanize | title}}</a></h2>
     <p style="margin-top: 0px;">{{ .Date | time.Format ":date_medium" }}</p>
   {{ end }}
 {{ end }}

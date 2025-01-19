@@ -1,5 +1,5 @@
 ---
-title: Using Vim
+title: using-vim
 date: 2023-07-28
 tags: ['vim', 'linux']
 ---

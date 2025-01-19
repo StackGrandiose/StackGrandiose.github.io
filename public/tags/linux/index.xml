@@ -6,10 +6,17 @@
     <description>Recent content in Linux on StackGrandiose</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Using Vim</title>
+      <title>Software I Use On Linux</title>
+      <link>http://localhost:1313/posts/what-i-use/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/what-i-use/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/posts/&#34;&gt;&amp;lt;&amp;ndash; Back&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;What I use is pretty standard in the realm of linux. To give some context, I am a novice programmer who enjoys learning about software but whose livelihood does not depend on using development tools. I prefer using terminal-based programs, but I also don&amp;rsquo;t believe that GUI programs are objectively horrible. I mostly need a working operating system where I can do typical computing tasks. If you&amp;rsquo;re reading this, chances are you probably know about all of these programs already and reading on is a waste of time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>using-vim</title>
       <link>http://localhost:1313/posts/vim/</link>
       <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/vim/</guid>
